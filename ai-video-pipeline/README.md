@@ -60,7 +60,7 @@ ai-video-pipeline/
 
 1. Clone the repository:
 
-git clone <your-repo-url>
+git clone https://github.com/Projectsuse40/ai-video-generator.git
 cd ai-video-pipeline
 
 2. Create a virtual environment:
@@ -104,4 +104,5 @@ After execution, the following files are generated:
 - output/video.mp4
 - output/subtitles.srt
 - output/seo.txt
+
 - output/voice.mp3
