@@ -1,0 +1,9 @@
+groq
+python-dotenv
+edge-tts
+moviepy
+requests
+openai-whisper
+ffmpeg-python
+torch
+numpy
