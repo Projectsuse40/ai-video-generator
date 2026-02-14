@@ -4,6 +4,7 @@ from voice_generator import text_to_speech
 from whisper_subtitles import generate_srt
 from image_fetcher import fetch_images
 from video_creator import create_video
+from thumbnail_generator import generate_thumbnail
 import os
 
 def main():
@@ -29,6 +30,10 @@ def main():
 
     print("Fetching images...")
     images = fetch_images(topic)
+    
+    thumbnail_path = generate_thumbnail(
+    title=topic,
+    image_path=images[0])
 
     print("Creating video...")
     create_video(images, audio_path, "output/video.mp4", script)
